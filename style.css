@@ -1,0 +1,205 @@
+body {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#sans-serif {
+    font-family: "Arial", "Verdana";
+}
+
+#serif {
+    font-family: "Georgia", "Times New Roman";
+}
+
+#monospace {
+    font-family: "Lucida Console", "Courier New";
+}
+
+/*PRINCIPIO de navLateral*/
+.navLateral {
+    height: 6%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-y: auto;
+    padding-top: 1%;
+    margin-right: 25%;
+    scrollbar-width: none;
+}
+
+#indiceNav{
+    color: white;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+
+.navLateral:hover a.navDEPORTES {
+    color: rgba(83, 189, 111, 0.5);
+}
+
+.navLateral:hover a.navGENERAL {
+    color: rgba(74, 178, 216, 0.5);
+}
+
+.navLateral::-webkit-scrollbar {
+    display: none;
+}
+
+.navLateral:hover {
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+  
+.navLateral a {
+    color: rgba(255, 255, 255, 0);
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.navLateral a.navDEPORTES:hover {
+    color: rgba(83, 189, 111);
+}
+
+.navLateral a.navGENERAL:hover {
+    color: rgba(74, 178, 216, 1);
+}
+
+@media print
+{    
+    body, body * {
+        color: black;
+        font-size: 1.5em;
+    }
+
+    .navLateral, .navLateral *
+    {
+        display: none !important;
+    }
+}
+/*FINAL de navLateral*/
+
+
+::-moz-selection { /* Texto seleccionado en firefox */
+    color: black;
+    background: whitesmoke;
+}
+
+::selection { /*Texto seleccionado*/
+    color: black;
+    background: whitesmoke;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 4em;
+    font-weight: bolder;
+    user-select: none;
+}
+
+.titulo a#aDEPORTES,
+.titulo a#aDEPORTES:link:visited:active {
+    text-decoration: none;
+    color: rgb(83, 189, 111);
+}
+
+.titulo a#aGENERAL,
+.titulo a#aGENERAL:link:visited:active {
+    text-decoration: none;
+    color: rgb(74, 178, 216);
+}
+
+.tituloDEPORTES {
+    color: rgb(83, 189, 111);
+}
+
+.tituloGENERAL {
+    color: rgb(74, 178, 216);
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: 2.5%;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.textoDEPORTES {
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+    margin-top: 0.5%;
+    text-align: justify;
+    line-height: 145%;
+    padding: 1%;
+    border-left: rgba(83, 189, 111, 0.5) solid;
+    background-color: #2e2e2e;
+    position: relative;
+    overflow: auto;
+}
+
+.textoDEPORTES:hover {
+    background-color: #3d3d3d;
+    border-left: rgba(83, 189, 111, 1) solid;
+}
+
+.textoDEPORTES img {
+    margin-left: 1.25%;
+    margin-top: 0.25%;
+    margin-bottom: 0.75%;
+}
+
+.textoGENERAL {
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+    margin-top: 0.5%;
+    text-align: justify;
+    line-height: 145%;
+    padding: 1%;
+    border-left: rgba(74, 178, 216, 0.5) solid;
+    background-color: #2e2e2e;
+    position: relative;
+    overflow: auto;
+}
+
+.textoGENERAL:hover {
+    background-color: #3d3d3d;
+    border-left: rgba(74, 178, 216, 1) solid;
+}
+
+.textoGENERAL img {
+    margin-left: 1.25%;
+    margin-top: 0.25%;
+    margin-bottom: 0.75%;
+}
+
+hr {
+    border-width: 1px;
+}
+
+.linkEnTextoHMTL {
+    color: #c8ead1; /*~30% más claro que el color DEPORTES principal*/
+    font-weight: bold;
+}
+
+.linkEnTextoHMTL:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.linkEnTextoGENERAL {
+    color: #c0e4f2; /*~30% más claro que el color GENERAL principal*/
+    font-weight: bold;
+}
+
+.linkEnTextoGENERAL:hover {
+    color: white;
+    font-weight: bold;
+}
