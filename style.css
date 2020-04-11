@@ -180,16 +180,27 @@ body {
     margin-bottom: 0.75%;
 }
 
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+ }
+
 hr {
     border-width: 1px;
 }
 
-.linkEnTextoHMTL {
+.linkEnTextoDEPORTES {
     color: #c8ead1; /*~30% más claro que el color DEPORTES principal*/
     font-weight: bold;
 }
 
-.linkEnTextoHMTL:hover {
+.linkEnTextoDEPORTES:hover {
     color: white;
     font-weight: bold;
 }
