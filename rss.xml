@@ -8,11 +8,12 @@
             <title>Las razones que explican por qué la epidemia "explotó" en España</title>
             <description>Debido a la falta de medios para realizar las pruebas, el sorprendente peso de los pacientes asintomáticos en el número de contagios y los síntomas de esta enfermedad, tan habituales en invierno, la epidemia creció sin que lo notáramos</description>
             <link>https://114990.github.io/rss/las-razones-que-explican-por-que-la-epidemia-exploto-en-espana.html</link>
-            <image>
+            <enclosure url="https://www.eldiario.es/fotos/Vista-Hospital-Alarma-Gobierno-EFEBallesteros_EDIIMA20200411_0113_19.jpg" length="0" type="img/jpg" />
+            <!--<image>
                 <url>https://www.eldiario.es/fotos/Vista-Hospital-Alarma-Gobierno-EFEBallesteros_EDIIMA20200411_0113_19.jpg</url>
                 <title>Pabellón 9 del hospital de campaña de Ifema</title>
                 <link>https://www.eldiario.es</link>
-            </image>
+            </image>-->
         </item>
         <item>
             <title>Chris Paul, la bomba que preparan los Lakers para completar su plantilla</title>
